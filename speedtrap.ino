@@ -172,7 +172,7 @@ void checkWiFiConnection() {
 
 void loop() {
 
-  checkWiFiConnection();
+  //checkWiFiConnection();
 
   int read_1 = digitalRead(PHOTOELECTRIC_1_PIN);
   int read_2 = digitalRead(PHOTOELECTRIC_2_PIN);
